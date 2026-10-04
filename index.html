@@ -3,76 +3,77 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>HotelPick｜釜山海雲台住宿選手 — 兩間比一比</title>
-<meta name="description" content="釜山海雲台住宿比較：Banwol Poolvilla 與 UH Suite The Haeundae。4 位成人・4 晚，價格、房型、設備、照片與位置地圖一次看完。">
-<meta name="theme-color" content="#f6f3ee" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#131210" media="(prefers-color-scheme: dark)">
+<title>HotelPick｜釜山海雲台住宿 — 兩間比一比</title>
+<meta name="description" content="釜山海雲台住宿比較：Banwol Poolvilla 與 UH Suite The Haeundae。4 位成人・4 晚，重點差異、房間照片、實住條件（地鐵、超商、停車、入住方式）一次看完。">
+<meta name="theme-color" content="#fff7ef" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#15120f" media="(prefers-color-scheme: dark)">
 
 <meta property="og:type" content="website">
-<meta property="og:title" content="HotelPick｜釜山海雲台住宿選手">
-<meta property="og:description" content="兩間住宿比一比：價格、房型、設備、照片、位置地圖。">
+<meta property="og:title" content="HotelPick｜釜山海雲台住宿 — 兩間比一比">
+<meta property="og:description" content="重點差異、房間照片、實住條件一次看完。">
 <meta property="og:image" content="booking_photos_01/03.jpg">
 
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8F%A8%3C/text%3E%3C/svg%3E">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Noto+Sans+TC:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&family=Noto+Sans+TC:wght@400;500;700;900&display=swap">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
       integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 <link rel="stylesheet" href="assets/style.css">
 </head>
-<body>
+<body id="top">
 
 <!-- ======================= 導覽 ======================= -->
 <header class="topbar">
   <div class="wrap topbar-in">
     <a class="brand" href="#top">🏨 HotelPick <span>釜山</span></a>
     <nav class="nav">
-      <a href="#quick">快速比較</a>
+      <a href="#quick">重點</a>
       <a href="#p1">選手 01</a>
       <a href="#p2">選手 02</a>
-      <a href="#map">位置地圖</a>
-      <a href="#table">完整比較</a>
+      <a href="#live">實住條件</a>
       <a href="#verdict">結論</a>
     </nav>
   </div>
 </header>
 
-<main id="top">
-
 <!-- ======================= Hero ======================= -->
 <section class="hero wrap">
-  <span class="hero-kicker"><i class="dot"></i>釜山・海雲台 ・ 4 位成人 ・ 4 晚</span>
-  <h1>兩間住宿，<br>挑一間就出發。</h1>
-  <p class="lede">兩間都在海雲台、都有海景、都是 2 間臥室 3 張雙人床。差別在浴室數量、廚房、泡湯設備，還有 TWD 2,921 的價差。</p>
+  <span class="hero-kicker"><i class="dot"></i>釜山・海雲台 ・ 4 位成人 ・ 4 晚 ・ 兩間都是 2 房 3 雙人床海景</span>
+  <h1>兩間住宿，<br><em>挑一間就出發。</em></h1>
 
-  <div class="notice">
-    <span aria-hidden="true">💬</span>
-    <div>這頁只是把資料和照片整理在一起<b>方便大家看</b>，網站上不用做任何操作——看完到群組討論就好。</div>
+  <div class="tldr">
+    <div class="tcard t1">
+      <b>想「度假感」就選 01</b>
+      <p>多 <strong>2,921</strong> 元換到 <strong>2 間浴室、私人按摩池、廚房、海景露台</strong>。缺點：在山坡上，走路不方便。</p>
+    </div>
+    <div class="tcard t2">
+      <b>想「方便＋省錢」就選 02</b>
+      <p>省 <strong>2,921</strong> 元，<strong>走 2 分鐘到海灘、7 分鐘到地鐵</strong>，吃飯逛街都在樓下。缺點：只有 1 間浴室、沒浴缸。</p>
+    </div>
   </div>
 
   <div class="versus">
     <a class="vs-card c1" href="#p1">
       <div class="vs-media">
-        <img src="booking_photos_01/03.jpg" alt="Banwol Poolvilla 客廳，整面海景窗與日落" width="1024" height="768">
+        <img src="booking_photos_01/03.jpg" alt="Banwol Poolvilla 客廳的整面海景窗" loading="eager" decoding="async">
         <span class="vs-tag">選手 01</span>
       </div>
       <div class="vs-body">
         <h2 class="vs-name">Banwol Poolvilla</h2>
-        <p class="vs-type">1 棟獨立度假屋・雙臥室房屋</p>
+        <p class="vs-type">1 棟獨立度假屋・雙臥室</p>
         <div class="vs-price">
           <span class="cur">TWD</span>
           <span class="big">36,942</span>
           <span class="per">每人每晚約 2,309</span>
         </div>
         <div class="vs-feat">
-          <span class="chip">2 浴室</span>
-          <span class="chip">私人廚房</span>
-          <span class="chip">SPA 浴缸</span>
-          <span class="chip">熱水按摩池</span>
+          <span class="chip">2 間浴室</span>
+          <span class="chip">私人按摩池</span>
           <span class="chip">海景露台</span>
         </div>
+        <span class="vs-go">看 15 張照片 →</span>
       </div>
     </a>
 
@@ -80,12 +81,12 @@
 
     <a class="vs-card c2" href="#p2">
       <div class="vs-media">
-        <img src="booking_photos_02/11.jpg" alt="UH Suite The Haeundae 客廳，長沙發與整排海景窗" width="1024" height="768">
+        <img src="booking_photos_02/11.jpg" alt="UH Suite The Haeundae 客廳的整排海景窗" loading="eager" decoding="async">
         <span class="vs-tag">選手 02</span>
       </div>
       <div class="vs-body">
         <h2 class="vs-name">UH Suite The Haeundae</h2>
-        <p class="vs-type">Ocean Premier Family Suite・最高樓層</p>
+        <p class="vs-type">飯店式套房・最高樓層 44 m²</p>
         <div class="vs-price">
           <span class="cur">TWD</span>
           <span class="big">34,021</span>
@@ -93,58 +94,88 @@
         </div>
         <div class="vs-feat">
           <span class="chip">便宜 2,921</span>
-          <span class="chip">44 m²</span>
+          <span class="chip">海灘 2 分鐘</span>
           <span class="chip">最高樓層</span>
-          <span class="chip">海景</span>
-          <span class="chip">免治馬桶</span>
         </div>
+        <span class="vs-go">看 17 張照片 →</span>
       </div>
     </a>
   </div>
 </section>
 
-<!-- ======================= 快速比較 ======================= -->
+<!-- ======================= 重點差異 ======================= -->
 <section id="quick" class="sec wrap">
   <p class="eyebrow">30 秒看完</p>
-  <h2 class="h">最關鍵的六件事</h2>
-  <p class="sub">只列真正會影響決定的差異，其他細節在下面各自的區塊。</p>
+  <h2 class="h">只有這 4 件事會影響決定</h2>
+  <p class="sub">其他（冰箱、微波爐、WiFi、空調、海景、2 房 3 雙人床）兩間都一樣，不用比。</p>
 
-  <div class="quick">
-    <div class="qrow">
-      <div class="qlab">4 晚總價</div>
-      <div class="qv l">TWD 36,942<small>每晚 9,236</small></div>
-      <div class="qsep">vs</div>
-      <div class="qv r win">TWD 34,021<small>每晚 8,505・便宜 2,921</small></div>
+  <div class="big3">
+    <div class="brow">
+      <p class="blab"><i>💰</i>價格（4 人 4 晚）</p>
+      <div class="bpair">
+        <div class="bside">
+          <span class="who">選手 01</span>
+          <span class="val">36,942</span>
+          <span class="note">每晚 9,236</span>
+        </div>
+        <div class="bside w2">
+          <span class="who">選手 02</span>
+          <span class="val">34,021</span>
+          <span class="note">每晚 8,505</span>
+          <span class="win-pill">省 2,921</span>
+        </div>
+      </div>
     </div>
-    <div class="qrow">
-      <div class="qlab">浴室數量</div>
-      <div class="qv l win">2 間<small>4 人早上不用排隊</small></div>
-      <div class="qsep">vs</div>
-      <div class="qv r">1 間<small>含免治馬桶</small></div>
+
+    <div class="brow">
+      <p class="blab"><i>🚿</i>浴室數量</p>
+      <div class="bpair">
+        <div class="bside w1">
+          <span class="who">選手 01</span>
+          <span class="val">2 間</span>
+          <span class="note">4 人早上不用排隊</span>
+          <span class="win-pill">明顯優勢</span>
+        </div>
+        <div class="bside">
+          <span class="who">選手 02</span>
+          <span class="val">1 間</span>
+          <span class="note">乾濕分離＋免治馬桶</span>
+        </div>
+      </div>
     </div>
-    <div class="qrow">
-      <div class="qlab">廚房與泡湯</div>
-      <div class="qv l win">私人簡易廚房<small>浴缸・SPA 浴缸・熱水按摩池</small></div>
-      <div class="qsep">vs</div>
-      <div class="qv r">無廚房<small>淋浴間為主</small></div>
+
+    <div class="brow">
+      <p class="blab"><i>♨️</i>泡湯與廚房</p>
+      <div class="bpair">
+        <div class="bside w1">
+          <span class="who">選手 01</span>
+          <span class="val">按摩池＋廚房</span>
+          <span class="note">私人熱水按摩池・SPA 浴缸・浴缸・簡易廚房</span>
+          <span class="win-pill">只有這間有</span>
+        </div>
+        <div class="bside">
+          <span class="who">選手 02</span>
+          <span class="val">只有淋浴</span>
+          <span class="note">沒有浴缸、沒有廚房</span>
+        </div>
+      </div>
     </div>
-    <div class="qrow">
-      <div class="qlab">空間型態</div>
-      <div class="qv l win">整棟獨立度假屋<small>客廳＋露台＋庭院</small></div>
-      <div class="qsep">vs</div>
-      <div class="qv r">飯店式套房 44 m²<small>客廳＋兩房</small></div>
-    </div>
-    <div class="qrow">
-      <div class="qlab">床位</div>
-      <div class="qv l win">3 雙人床 ＋ 1 沙發床<small>床鋪評分 9.9</small></div>
-      <div class="qsep">vs</div>
-      <div class="qv r">3 雙人床<small>床鋪評分 8.2</small></div>
-    </div>
-    <div class="qrow">
-      <div class="qlab">視野</div>
-      <div class="qv l">海景露台<small>位置評分 9.4</small></div>
-      <div class="qsep">vs</div>
-      <div class="qv r win">最高樓層海景<small>正對海雲台海灘</small></div>
+
+    <div class="brow">
+      <p class="blab"><i>📍</i>生活方便度</p>
+      <div class="bpair">
+        <div class="bside">
+          <span class="who">選手 01</span>
+          <span class="val">山坡上・要叫車</span>
+          <span class="note">地鐵走 15 分鐘上下坡</span>
+        </div>
+        <div class="bside w2">
+          <span class="who">選手 02</span>
+          <span class="val">海灘正前方</span>
+          <span class="note">海灘 2 分鐘・地鐵 7 分鐘</span>
+          <span class="win-pill">明顯優勢</span>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -155,15 +186,11 @@
     <div>
       <span class="badge">選手 01</span>
       <h3>Banwol Poolvilla</h3>
-      <p class="ptype">1 棟獨立度假屋 ・ 雙臥室房屋 ・ 4 位成人 4 晚 ・ 禁菸</p>
+      <p class="ptype">1 棟獨立度假屋 ・ 雙臥室 ・ 海景露台 ・ 禁菸</p>
     </div>
     <div class="pricebox">
       <div class="total"><span class="cur">TWD</span><span class="big">36,942</span></div>
-      <p class="tlab">4 晚總價（4 人）</p>
-      <div class="split">
-        <div><b>9,236</b>每晚</div>
-        <div><b>2,309</b>每人每晚</div>
-      </div>
+      <p class="tlab">4 晚總價（4 人）・每人每晚約 2,309</p>
     </div>
   </div>
 
@@ -176,92 +203,74 @@
     <div class="fact"><b>9.4</b><span>位置評分</span></div>
   </div>
 
-  <div class="cards c3">
-    <div class="card">
-      <h4>床型配置</h4>
-      <ul class="list">
-        <li><span class="k">臥室 1</span><span class="v">2 張雙人床</span></li>
-        <li><span class="k">臥室 2</span><span class="v">1 張雙人床</span></li>
-        <li><span class="k">客廳</span><span class="v">1 張沙發床</span></li>
-        <li><span class="k">合計</span><span class="v">3 雙人床 ＋ 1 沙發床</span></li>
-      </ul>
-      <div class="score"><b>9.9</b><span>／ 10　床鋪舒適度</span></div>
-      <div class="bar"><i style="width:99%"></i></div>
-    </div>
-
-    <div class="card">
-      <h4>空間與設備</h4>
-      <div class="tags">
-        <span class="tag hi">2 間獨立臥室</span>
-        <span class="tag hi">2 間私人衛浴</span>
-        <span class="tag hi">獨立客廳</span>
-        <span class="tag hi">私人簡易廚房</span>
-        <span class="tag hi">私人熱水按摩池</span>
-        <span class="tag hi">SPA 浴缸</span>
-        <span class="tag hi">浴缸</span>
-        <span class="tag hi">海景露台</span>
-        <span class="tag">海景</span>
-        <span class="tag">免費 WiFi</span>
-        <span class="tag">空調</span>
-        <span class="tag">Netflix 等串流</span>
-        <span class="tag">禁菸</span>
-      </div>
-    </div>
-
-    <div class="card">
-      <h4>廚房 ・ 衛浴</h4>
-      <ul class="list">
-        <li><span class="k">廚房</span><span class="v">冰箱・微波爐・餐桌・泡茶泡咖啡設備</span></li>
-        <li><span class="k">衛浴</span><span class="v">2 間私人衛浴・浴缸・SPA 浴缸・淋浴間</span></li>
-        <li><span class="k">備品</span><span class="v">吹風機・毛巾・拖鞋・免費盥洗用品</span></li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="cards">
-    <div class="card">
-      <h4>主要優點</h4>
-      <ul class="pros">
-        <li>2 間浴室，4 人同行早上不用排隊</li>
-        <li>有私人簡易廚房，可以自己煮、放食材</li>
-        <li>私人 SPA／熱水按摩池＋浴缸，泡湯看海</li>
-        <li>獨立客廳與海景露台，整棟包棟的度假感</li>
-        <li>床鋪評分 9.9、位置評分 9.4，兩項都很高</li>
-      </ul>
-    </div>
-    <div class="card">
-      <h4>位置</h4>
-      <p class="addr">4-5F, 67, Dalmaji-gil 62beon-gil,<br>Haeundae-gu, 48098 釜山, 韓國<br><span style="color:var(--muted)">海雲台東側・달맞이길（月出路）一帶</span></p>
-      <a class="btn" href="https://www.google.com/maps/search/?api=1&query=35.15688,129.17382" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
-        在 Google 地圖開啟
-      </a>
-      <div class="score"><b>9.4</b><span>／ 10　位置評分</span></div>
-      <div class="bar"><i style="width:94%"></i></div>
-    </div>
-  </div>
-
   <div class="gal-head">
-    <h4>相片 ・ 15 張</h4>
-    <span class="hint">點照片看大圖</span>
+    <h4>房間照片</h4>
+    <span class="hint">點照片看大圖 ↗</span>
   </div>
   <div class="gal" data-owner="選手 01｜Banwol Poolvilla">
-    <button type="button" class="shot" data-full="booking_photos_01/03.jpg" data-cap="客廳｜整面海景窗，日落時的海與遠山"><img src="booking_photos_01/03.jpg" alt="客廳，整面海景窗與日落" loading="lazy" decoding="async"><figcaption>客廳｜整面海景窗與日落</figcaption></button>
-    <button type="button" class="shot" data-full="booking_photos_01/05.jpg" data-cap="海景窗｜白天的海灣與遠方市景"><img src="booking_photos_01/05.jpg" alt="海景窗，白天的海灣" loading="lazy" decoding="async"><figcaption>海景窗｜白天的海灣</figcaption></button>
+    <button type="button" class="shot" data-full="booking_photos_01/03.jpg" data-cap="客廳｜整面海景窗，日落時的海與遠山"><img src="booking_photos_01/03.jpg" alt="客廳，整面海景窗與日落" loading="lazy" decoding="async"><figcaption>客廳｜整面海景窗</figcaption></button>
     <button type="button" class="shot" data-full="booking_photos_01/13.jpg" data-cap="臥室 1｜2 張雙人床，窗外就是海"><img src="booking_photos_01/13.jpg" alt="臥室，兩張雙人床與海景窗" loading="lazy" decoding="async"><figcaption>臥室 1｜2 張雙人床</figcaption></button>
     <button type="button" class="shot" data-full="booking_photos_01/01.jpg" data-cap="臥室 2｜雙人床與庭院採光"><img src="booking_photos_01/01.jpg" alt="臥室，雙人床與庭院窗" loading="lazy" decoding="async"><figcaption>臥室 2｜雙人床</figcaption></button>
-    <button type="button" class="shot" data-full="booking_photos_01/15.jpg" data-cap="臥室｜床頭燈與黃昏海景"><img src="booking_photos_01/15.jpg" alt="臥室床頭與黃昏海景" loading="lazy" decoding="async"><figcaption>臥室｜黃昏海景</figcaption></button>
-    <button type="button" class="shot" data-full="booking_photos_01/10.jpg" data-cap="餐廳｜石牆與大餐桌，6 人座"><img src="booking_photos_01/10.jpg" alt="餐廳，石牆與大餐桌" loading="lazy" decoding="async"><figcaption>餐廳｜6 人大餐桌</figcaption></button>
-    <button type="button" class="shot" data-full="booking_photos_01/11.jpg" data-cap="餐廳｜面向庭院的大片玻璃"><img src="booking_photos_01/11.jpg" alt="餐廳，面向庭院的玻璃牆" loading="lazy" decoding="async"><figcaption>餐廳｜面庭院玻璃牆</figcaption></button>
-    <button type="button" class="shot" data-full="booking_photos_01/08.jpg" data-cap="簡易廚房｜微波爐・水槽・杯盤餐具"><img src="booking_photos_01/08.jpg" alt="簡易廚房，微波爐與水槽" loading="lazy" decoding="async"><figcaption>簡易廚房</figcaption></button>
     <button type="button" class="shot" data-full="booking_photos_01/12.jpg" data-cap="浴缸｜泡澡時看得到海"><img src="booking_photos_01/12.jpg" alt="浴缸與海景窗" loading="lazy" decoding="async"><figcaption>浴缸｜泡澡看海</figcaption></button>
     <button type="button" class="shot" data-full="booking_photos_01/09.jpg" data-cap="衛浴｜石材洗手台，共 2 間衛浴"><img src="booking_photos_01/09.jpg" alt="衛浴，石材洗手台與馬桶" loading="lazy" decoding="async"><figcaption>衛浴｜共 2 間</figcaption></button>
+    <button type="button" class="shot" data-full="booking_photos_01/10.jpg" data-cap="餐廳｜石牆與大餐桌，6 人座"><img src="booking_photos_01/10.jpg" alt="餐廳，石牆與大餐桌" loading="lazy" decoding="async"><figcaption>餐廳｜6 人大餐桌</figcaption></button>
+    <button type="button" class="shot" data-full="booking_photos_01/08.jpg" data-cap="簡易廚房｜微波爐・水槽・杯盤餐具"><img src="booking_photos_01/08.jpg" alt="簡易廚房，微波爐與水槽" loading="lazy" decoding="async"><figcaption>簡易廚房</figcaption></button>
+    <button type="button" class="shot" data-full="booking_photos_01/15.jpg" data-cap="臥室｜床頭燈與黃昏海景"><img src="booking_photos_01/15.jpg" alt="臥室床頭與黃昏海景" loading="lazy" decoding="async"><figcaption>臥室｜黃昏海景</figcaption></button>
+    <button type="button" class="shot" data-full="booking_photos_01/05.jpg" data-cap="海景窗｜白天的海灣與遠方市景"><img src="booking_photos_01/05.jpg" alt="海景窗，白天的海灣" loading="lazy" decoding="async"><figcaption>海景窗｜白天海灣</figcaption></button>
+    <button type="button" class="shot" data-full="booking_photos_01/11.jpg" data-cap="餐廳｜面向庭院的大片玻璃"><img src="booking_photos_01/11.jpg" alt="餐廳，面向庭院的玻璃牆" loading="lazy" decoding="async"><figcaption>餐廳｜面庭院玻璃牆</figcaption></button>
     <button type="button" class="shot" data-full="booking_photos_01/14.jpg" data-cap="窗邊茶席｜矮桌、茶具與坐墊"><img src="booking_photos_01/14.jpg" alt="窗邊矮桌茶席" loading="lazy" decoding="async"><figcaption>窗邊茶席</figcaption></button>
     <button type="button" class="shot" data-full="booking_photos_01/02.jpg" data-cap="窗邊角落｜石牆與黃昏的海"><img src="booking_photos_01/02.jpg" alt="窗邊角落，石牆與黃昏海景" loading="lazy" decoding="async"><figcaption>窗邊角落</figcaption></button>
+    <button type="button" class="shot" data-full="booking_photos_01/07.jpg" data-cap="戶外廊道｜黑木露台與庭院"><img src="booking_photos_01/07.jpg" alt="戶外黑木廊道露台" loading="lazy" decoding="async"><figcaption>戶外廊道・露台</figcaption></button>
     <button type="button" class="shot" data-full="booking_photos_01/04.jpg" data-cap="夜間外觀｜庭院燈光與室內暖光"><img src="booking_photos_01/04.jpg" alt="夜間外觀與庭院燈光" loading="lazy" decoding="async"><figcaption>夜間外觀</figcaption></button>
     <button type="button" class="shot" data-full="booking_photos_01/06.jpg" data-cap="建築外觀｜碎石枯山水庭院"><img src="booking_photos_01/06.jpg" alt="建築外觀與碎石庭院" loading="lazy" decoding="async"><figcaption>外觀｜枯山水庭院</figcaption></button>
-    <button type="button" class="shot" data-full="booking_photos_01/07.jpg" data-cap="戶外廊道｜黑木露台與庭院"><img src="booking_photos_01/07.jpg" alt="戶外黑木廊道露台" loading="lazy" decoding="async"><figcaption>戶外廊道・露台</figcaption></button>
   </div>
+
+  <details class="fold">
+    <summary>床型、設備、優點（想看細節再點開）</summary>
+    <div class="foldin">
+      <div class="specs">
+        <div>
+          <h5>床型配置</h5>
+          <ul class="list">
+            <li><span class="k">臥室 1</span><span class="v">2 張雙人床</span></li>
+            <li><span class="k">臥室 2</span><span class="v">1 張雙人床</span></li>
+            <li><span class="k">客廳</span><span class="v">1 張沙發床</span></li>
+          </ul>
+          <div class="score"><b>9.9</b><span>／ 10　床鋪舒適度</span></div>
+          <div class="bar"><i style="width:99%"></i></div>
+
+          <h5 style="margin-top:20px">廚房與衛浴</h5>
+          <ul class="list">
+            <li><span class="k">廚房</span><span class="v">冰箱・微波爐・餐桌・泡茶泡咖啡設備</span></li>
+            <li><span class="k">衛浴</span><span class="v">2 間私人衛浴・浴缸・SPA 浴缸・淋浴間</span></li>
+            <li><span class="k">備品</span><span class="v">吹風機・毛巾・拖鞋・免費盥洗用品</span></li>
+          </ul>
+        </div>
+        <div>
+          <h5>房內設備</h5>
+          <div class="tags">
+            <span class="tag hi">2 間獨立臥室</span>
+            <span class="tag hi">2 間私人衛浴</span>
+            <span class="tag hi">獨立客廳</span>
+            <span class="tag hi">私人簡易廚房</span>
+            <span class="tag hi">私人熱水按摩池</span>
+            <span class="tag hi">SPA 浴缸</span>
+            <span class="tag hi">浴缸</span>
+            <span class="tag hi">海景露台</span>
+            <span class="tag">海景</span>
+            <span class="tag">免費 WiFi</span>
+            <span class="tag">空調</span>
+            <span class="tag">Netflix 等串流</span>
+            <span class="tag">禁菸</span>
+          </div>
+
+          <h5 style="margin-top:20px">位置</h5>
+          <p class="addr">4-5F, 67, Dalmaji-gil 62beon-gil, Haeundae-gu, 48098 釜山<br>海雲台東側・달맞이길（月出路）山坡</p>
+          <a class="btn" href="https://www.google.com/maps/search/?api=1&query=35.15688,129.17382" target="_blank" rel="noopener">在 Google 地圖開啟</a>
+        </div>
+      </div>
+    </div>
+  </details>
 </section>
 
 <!-- ======================= 選手 02 ======================= -->
@@ -270,15 +279,11 @@
     <div>
       <span class="badge">選手 02</span>
       <h3>UH Suite The Haeundae</h3>
-      <p class="ptype">Ocean Premier Family Suite（最高樓層）・44 m² ・ 4 位成人 4 晚 ・ 禁菸</p>
+      <p class="ptype">Ocean Premier Family Suite ・ 最高樓層 ・ 44 m² ・ 禁菸</p>
     </div>
     <div class="pricebox">
       <div class="total"><span class="cur">TWD</span><span class="big">34,021</span></div>
-      <p class="tlab">4 晚總價（4 人）</p>
-      <div class="split">
-        <div><b>8,505</b>每晚</div>
-        <div><b>2,126</b>每人每晚</div>
-      </div>
+      <p class="tlab">4 晚總價（4 人）・每人每晚約 2,126</p>
     </div>
   </div>
 
@@ -291,235 +296,348 @@
     <div class="fact sm"><b>最高樓</b><span>樓層</span></div>
   </div>
 
-  <div class="cards c3">
-    <div class="card">
-      <h4>床型配置</h4>
-      <ul class="list">
-        <li><span class="k">臥室 1</span><span class="v">1 張雙人床</span></li>
-        <li><span class="k">臥室 2</span><span class="v">2 張雙人床</span></li>
-        <li><span class="k">合計</span><span class="v">3 張雙人床</span></li>
-      </ul>
-      <div class="score"><b>8.2</b><span>／ 10　床鋪舒適度</span></div>
-      <div class="bar"><i style="width:82%"></i></div>
-    </div>
-
-    <div class="card">
-      <h4>空間與設備</h4>
-      <div class="tags">
-        <span class="tag hi">2 間獨立臥室</span>
-        <span class="tag hi">44 m²</span>
-        <span class="tag hi">客廳</span>
-        <span class="tag hi">最高樓層</span>
-        <span class="tag hi">海景</span>
-        <span class="tag">用餐區</span>
-        <span class="tag">平面電視・有線頻道</span>
-        <span class="tag">免費 WiFi</span>
-        <span class="tag">空調・暖氣</span>
-        <span class="tag">禁菸</span>
-      </div>
-    </div>
-
-    <div class="card">
-      <h4>房內 ・ 衛浴</h4>
-      <ul class="list">
-        <li><span class="k">房內</span><span class="v">冰箱・微波爐・電熱水壺・用餐區</span></li>
-        <li><span class="k">衛浴</span><span class="v">1 間私人衛浴・淋浴間・免治馬桶</span></li>
-        <li><span class="k">備品</span><span class="v">吹風機・毛巾</span></li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="cards">
-    <div class="card">
-      <h4>主要優點</h4>
-      <ul class="pros">
-        <li>總價便宜 TWD 2,921，每人每天省約 183</li>
-        <li>最高樓層，視野直接面向海雲台海灘</li>
-        <li>44 m² 兩房一廳，格局方正、動線單純</li>
-        <li>3 張雙人床，4 人睡起來一樣寬鬆</li>
-        <li>有免治馬桶，飯店式服務與清潔</li>
-      </ul>
-    </div>
-    <div class="card">
-      <h4>位置</h4>
-      <p class="addr">271, Haeundaehaebyeon-ro,<br>Haeundae-gu, 48094 釜山, 韓國<br><span style="color:var(--muted)">海雲台海岸路上・海灘正前方</span></p>
-      <a class="btn" href="https://www.google.com/maps/search/?api=1&query=35.15982,129.16113" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
-        在 Google 地圖開啟
-      </a>
-      <p style="font-size:13px;color:var(--muted);margin:12px 0 0">原始資料未提供位置評分。</p>
-    </div>
-  </div>
-
   <div class="gal-head">
-    <h4>相片 ・ 17 張</h4>
-    <span class="hint">點照片看大圖</span>
+    <h4>房間照片</h4>
+    <span class="hint">點照片看大圖 ↗</span>
   </div>
   <div class="gal" data-owner="選手 02｜UH Suite The Haeundae">
     <button type="button" class="shot" data-full="booking_photos_02/11.jpg" data-cap="客廳｜長沙發與整排海景窗，右側通往臥室"><img src="booking_photos_02/11.jpg" alt="客廳，長沙發與整排海景窗" loading="lazy" decoding="async"><figcaption>客廳｜整排海景窗</figcaption></button>
+    <button type="button" class="shot" data-full="booking_photos_02/06.jpg" data-cap="臥室 1｜雙人床，落地窗直接面海"><img src="booking_photos_02/06.jpg" alt="臥室，雙人床與落地海景窗" loading="lazy" decoding="async"><figcaption>臥室 1｜面海落地窗</figcaption></button>
+    <button type="button" class="shot" data-full="booking_photos_02/09.jpg" data-cap="臥室 2｜2 張雙人床，床下間接照明"><img src="booking_photos_02/09.jpg" alt="臥室，兩張雙人床" loading="lazy" decoding="async"><figcaption>臥室 2｜2 張雙人床</figcaption></button>
+    <button type="button" class="shot" data-full="booking_photos_02/08.jpg" data-cap="床頭｜窗外就是海平線"><img src="booking_photos_02/08.jpg" alt="床頭與窗外海平線" loading="lazy" decoding="async"><figcaption>床頭｜窗外海平線</figcaption></button>
+    <button type="button" class="shot" data-full="booking_photos_02/17.jpg" data-cap="衛浴｜乾濕分離，免治馬桶獨立隔間"><img src="booking_photos_02/17.jpg" alt="衛浴乾濕分離與免治馬桶" loading="lazy" decoding="async"><figcaption>衛浴｜乾濕分離</figcaption></button>
+    <button type="button" class="shot" data-full="booking_photos_02/16.jpg" data-cap="淋浴間｜雨淋花灑與沐浴備品"><img src="booking_photos_02/16.jpg" alt="淋浴間雨淋花灑" loading="lazy" decoding="async"><figcaption>淋浴間｜雨淋花灑</figcaption></button>
     <button type="button" class="shot" data-full="booking_photos_02/03.jpg" data-cap="客廳｜長沙發、茶几與面海大窗"><img src="booking_photos_02/03.jpg" alt="客廳，沙發與面海大窗" loading="lazy" decoding="async"><figcaption>客廳｜面海大窗</figcaption></button>
     <button type="button" class="shot" data-full="booking_photos_02/13.jpg" data-cap="客廳｜白天自然光，木質調整體空間"><img src="booking_photos_02/13.jpg" alt="客廳白天自然光" loading="lazy" decoding="async"><figcaption>客廳｜白天自然光</figcaption></button>
+    <button type="button" class="shot" data-full="booking_photos_02/10.jpg" data-cap="臥室 2｜書桌與開放式衣櫃"><img src="booking_photos_02/10.jpg" alt="臥室書桌與衣櫃" loading="lazy" decoding="async"><figcaption>臥室 2｜書桌衣櫃</figcaption></button>
     <button type="button" class="shot" data-full="booking_photos_02/12.jpg" data-cap="客廳｜壁掛電視與通往臥室的動線"><img src="booking_photos_02/12.jpg" alt="客廳電視牆與走道" loading="lazy" decoding="async"><figcaption>客廳｜電視牆</figcaption></button>
     <button type="button" class="shot" data-full="booking_photos_02/04.jpg" data-cap="客廳｜平面電視與中島式茶几"><img src="booking_photos_02/04.jpg" alt="客廳平面電視與茶几" loading="lazy" decoding="async"><figcaption>客廳｜電視與茶几</figcaption></button>
-    <button type="button" class="shot" data-full="booking_photos_02/06.jpg" data-cap="臥室 1｜雙人床，落地窗直接面海"><img src="booking_photos_02/06.jpg" alt="臥室，雙人床與落地海景窗" loading="lazy" decoding="async"><figcaption>臥室 1｜面海落地窗</figcaption></button>
-    <button type="button" class="shot" data-full="booking_photos_02/08.jpg" data-cap="床頭｜窗外就是海平線"><img src="booking_photos_02/08.jpg" alt="床頭與窗外海平線" loading="lazy" decoding="async"><figcaption>床頭｜窗外海平線</figcaption></button>
-    <button type="button" class="shot" data-full="booking_photos_02/09.jpg" data-cap="臥室 2｜2 張雙人床，床下間接照明"><img src="booking_photos_02/09.jpg" alt="臥室，兩張雙人床" loading="lazy" decoding="async"><figcaption>臥室 2｜2 張雙人床</figcaption></button>
-    <button type="button" class="shot" data-full="booking_photos_02/10.jpg" data-cap="臥室 2｜書桌與開放式衣櫃"><img src="booking_photos_02/10.jpg" alt="臥室書桌與衣櫃" loading="lazy" decoding="async"><figcaption>臥室 2｜書桌衣櫃</figcaption></button>
     <button type="button" class="shot" data-full="booking_photos_02/07.jpg" data-cap="臥室｜書桌、掛畫與床頭櫃"><img src="booking_photos_02/07.jpg" alt="臥室書桌與掛畫" loading="lazy" decoding="async"><figcaption>臥室｜書桌區</figcaption></button>
     <button type="button" class="shot" data-full="booking_photos_02/14.jpg" data-cap="臥室｜側窗為市景，可看到海雲台街景"><img src="booking_photos_02/14.jpg" alt="臥室市景側窗" loading="lazy" decoding="async"><figcaption>臥室｜市景側窗</figcaption></button>
     <button type="button" class="shot" data-full="booking_photos_02/15.jpg" data-cap="衛浴｜洗手台與毛巾架"><img src="booking_photos_02/15.jpg" alt="衛浴洗手台" loading="lazy" decoding="async"><figcaption>衛浴｜洗手台</figcaption></button>
-    <button type="button" class="shot" data-full="booking_photos_02/16.jpg" data-cap="淋浴間｜雨淋花灑與沐浴備品"><img src="booking_photos_02/16.jpg" alt="淋浴間雨淋花灑" loading="lazy" decoding="async"><figcaption>淋浴間｜雨淋花灑</figcaption></button>
-    <button type="button" class="shot" data-full="booking_photos_02/17.jpg" data-cap="衛浴｜乾濕分離，免治馬桶獨立隔間"><img src="booking_photos_02/17.jpg" alt="衛浴乾濕分離與免治馬桶" loading="lazy" decoding="async"><figcaption>衛浴｜乾濕分離</figcaption></button>
     <button type="button" class="shot" data-full="booking_photos_02/05.jpg" data-cap="玄關｜木質走道通往客廳"><img src="booking_photos_02/05.jpg" alt="玄關木質走道" loading="lazy" decoding="async"><figcaption>玄關走道</figcaption></button>
     <button type="button" class="shot" data-full="booking_photos_02/01.jpg" data-cap="格局圖｜44 m² 兩房一廳平面配置"><img src="booking_photos_02/01.jpg" alt="房型格局平面圖" loading="lazy" decoding="async"><figcaption>格局圖</figcaption></button>
     <button type="button" class="shot" data-full="booking_photos_02/02.jpg" data-cap="格局圖｜另一種配置視角"><img src="booking_photos_02/02.jpg" alt="房型格局平面圖，另一視角" loading="lazy" decoding="async"><figcaption>格局圖｜另一視角</figcaption></button>
   </div>
+
+  <details class="fold">
+    <summary>床型、設備、優點（想看細節再點開）</summary>
+    <div class="foldin">
+      <div class="specs">
+        <div>
+          <h5>床型配置</h5>
+          <ul class="list">
+            <li><span class="k">臥室 1</span><span class="v">1 張雙人床</span></li>
+            <li><span class="k">臥室 2</span><span class="v">2 張雙人床</span></li>
+            <li><span class="k">合計</span><span class="v">3 張雙人床（無沙發床）</span></li>
+          </ul>
+          <div class="score"><b>8.2</b><span>／ 10　床鋪舒適度</span></div>
+          <div class="bar"><i style="width:82%"></i></div>
+
+          <h5 style="margin-top:20px">房內與衛浴</h5>
+          <ul class="list">
+            <li><span class="k">房內</span><span class="v">冰箱・微波爐・電熱水壺・用餐區</span></li>
+            <li><span class="k">衛浴</span><span class="v">1 間私人衛浴・淋浴間・免治馬桶</span></li>
+            <li><span class="k">備品</span><span class="v">吹風機・毛巾</span></li>
+          </ul>
+        </div>
+        <div>
+          <h5>房內設備</h5>
+          <div class="tags">
+            <span class="tag hi">2 間獨立臥室</span>
+            <span class="tag hi">44 m²</span>
+            <span class="tag hi">客廳</span>
+            <span class="tag hi">最高樓層</span>
+            <span class="tag hi">海景</span>
+            <span class="tag">用餐區</span>
+            <span class="tag">平面電視・有線頻道</span>
+            <span class="tag">免費 WiFi</span>
+            <span class="tag">空調・暖氣</span>
+            <span class="tag">禁菸</span>
+          </div>
+
+          <h5 style="margin-top:20px">位置</h5>
+          <p class="addr">271, Haeundaehaebyeon-ro, Haeundae-gu, 48094 釜山<br>海雲台海岸路上・海灘正前方</p>
+          <a class="btn" href="https://www.google.com/maps/search/?api=1&query=35.15982,129.16113" target="_blank" rel="noopener">在 Google 地圖開啟</a>
+        </div>
+      </div>
+    </div>
+  </details>
+</section>
+
+<!-- ======================= 實住條件 ======================= -->
+<section id="live" class="sec wrap">
+  <p class="eyebrow">實際住起來</p>
+  <h2 class="h">10 項實住條件</h2>
+  <p class="sub">照片看不出來、但到了現場最有感的部分：走多遠、怎麼進房、會不會被加收錢、行李好不好拖。</p>
+
+  <div class="legend">
+    <span>✅ 已查證＝官方／訂房網資料</span>
+    <span>≈ 推估＝依地圖距離估算</span>
+    <span>❓ 需確認＝訂房前要問清楚</span>
+  </div>
+
+  <div class="liv">
+    <div class="lhead">
+      <div class="la">選手 01｜Banwol<small>山坡度假屋</small></div>
+      <div class="lb2">選手 02｜UH Suite<small>海灘正前方</small></div>
+    </div>
+
+    <div class="lrow">
+      <div class="ltitle"><i>🗺️</i>位置區域<span class="mark ok">✅ 已查證</span></div>
+      <div class="lcell">
+        <span class="v">달맞이길（月出路）山坡</span>
+        <span class="n">海雲台東側的咖啡廳＋海景觀景帶，安靜、視野好，但是彎曲上坡路，離熱鬧街區遠。</span>
+      </div>
+      <div class="lcell good g2">
+        <span class="v">海雲台海岸路，海灘正前方</span>
+        <span class="n">餐廳、超商、傳統市場、地鐵全在步行圈，最熱鬧也最方便。</span>
+      </div>
+    </div>
+
+    <div class="lrow">
+      <div class="ltitle"><i>🚇</i>最近地鐵站<span class="mark ok">✅ 已查證</span></div>
+      <div class="lcell">
+        <span class="v">2 號線 中洞站，走 15 分鐘</span>
+        <span class="n">7 號出口上來約 800 m，回程是上坡。公車 139／141／100／200，釜山站有 1003 號。</span>
+      </div>
+      <div class="lcell good g2">
+        <span class="v">2 號線 海雲台站，走 7–8 分鐘</span>
+        <span class="n">約 520–600 m 平路，拖行李也走得動。</span>
+      </div>
+    </div>
+
+    <div class="lrow">
+      <div class="ltitle"><i>🏪</i>最近超商<span class="mark ask">❓ 需確認</span></div>
+      <div class="lcell">
+        <span class="n">山坡上以咖啡廳、餐廳為主，超商不密集；走到尾浦（미포）一帶約 8–10 分鐘才比較多。建議訂房時直接問櫃檯最近的 GS25／CU。</span>
+      </div>
+      <div class="lcell good g2">
+        <span class="v">館內就有便利商店</span>
+        <span class="n">另外海岸路一帶超商密集，出門 1 分鐘內就有。</span>
+      </div>
+    </div>
+
+    <div class="lrow">
+      <div class="ltitle"><i>🏖️</i>海灘距離<span class="mark est">≈ 推估</span></div>
+      <div class="lcell">
+        <span class="v">走 10–15 分鐘</span>
+        <span class="n">訂房網寫「步行 5 分鐘」，但實際到海灘東端（尾浦）約 580 m、到海灘中段約 1.2 km，而且回程全程上坡。</span>
+      </div>
+      <div class="lcell good g2">
+        <span class="v">走 2 分鐘</span>
+        <span class="n">約 140 m 平路，過馬路就是海雲台海水浴場。</span>
+      </div>
+    </div>
+
+    <div class="lrow">
+      <div class="ltitle"><i>🚕</i>主要景點叫車時間<span class="mark est">≈ 推估</span></div>
+      <div class="lcell">
+        <span class="n">藍線公園・尾浦 3 分／青沙浦 5–7 分／松亭海灘 8–10 分／海雲台市場 5 分／BEXCO 10 分／廣安里 15 分／釜山站 25–30 分／金海機場 40–50 分。<b>離東邊景點比較近。</b></span>
+      </div>
+      <div class="lcell">
+        <span class="n">海雲台市場 3 分／藍線公園 5 分／BEXCO 8 分／青沙浦 10 分／松亭 12 分／廣安里 12–15 分／釜山站 25 分／金海機場 40–45 分。<b>往市區、廣安里比較順。</b></span>
+      </div>
+    </div>
+
+    <div class="lrow">
+      <div class="ltitle"><i>🅿️</i>停車<span class="mark ok">✅ 已查證</span></div>
+      <div class="lcell">
+        <span class="v">免費，但車位要配合挪車</span>
+        <span class="n">住客回饋：沒有另收停車費，但停車空間窄、常要前後挪車，由管理方協助處理。</span>
+      </div>
+      <div class="lcell good g2">
+        <span class="v">免費，每房 1 台（機械式）</span>
+        <span class="n">塔式停車；SUV／大車走外部停車塔，滿位時引導到外部停車場。停車章在 7 樓櫃檯領。</span>
+      </div>
+    </div>
+
+    <div class="lrow">
+      <div class="ltitle"><i>🔑</i>入住方式<span class="mark ok">✅ 已查證</span></div>
+      <div class="lcell good">
+        <span class="v">無接觸／自助入住</span>
+        <span class="n">入住 15:00–00:00、退房 11:00 前。沒有 24 小時櫃檯，晚到比較彈性但有問題時要靠訊息聯絡。</span>
+      </div>
+      <div class="lcell">
+        <span class="v">7 樓櫃檯有人服務</span>
+        <span class="n">入住 15:00（最晚可到隔日 03:00，22:00 後晚到要先聯繫）、退房 08:00–11:00。櫃檯 08:00–03:00。</span>
+      </div>
+    </div>
+
+    <div class="lrow">
+      <div class="ltitle"><i>👤</i>額外人頭費<span class="mark ask">❓ 需確認</span></div>
+      <div class="lcell">
+        <span class="n">資料未標示。<b>我們 4 人已含在報價內</b>；但包棟型住宿常設人數上限與超收費用，若臨時多一人一定要先問。</span>
+      </div>
+      <div class="lcell">
+        <span class="v">加 1 人 KRW 20,000（現場收）</span>
+        <span class="n">我們 4 人在房型人數內，不會被加收；多帶人才會算。兒童使用現有床位可能另收。</span>
+      </div>
+    </div>
+
+    <div class="lrow">
+      <div class="ltitle"><i>💳</i>設施是否另收費<span class="mark ok">✅ 已查證</span></div>
+      <div class="lcell good">
+        <span class="v">按摩池、SPA 浴缸都不加價</span>
+        <span class="n">熱水按摩池與浴缸屬房內設備，未見額外收費；無早餐。</span>
+      </div>
+      <div class="lcell">
+        <span class="v">無度假村費</span>
+        <span class="n">未見設施加收；無早餐、無餐廳。機場接送要另外付費。</span>
+      </div>
+    </div>
+
+    <div class="lrow">
+      <div class="ltitle"><i>🧳</i>行李搬運便利度<span class="mark est">≈ 推估</span></div>
+      <div class="lcell">
+        <span class="v">不建議自己拖行李過去</span>
+        <span class="n">房在 4–5 樓有電梯，但位於山坡、地鐵走 15 分鐘上坡；<b>建議直接搭車到門口</b>。沒有行李寄放記載。</span>
+      </div>
+      <div class="lcell good g2">
+        <span class="v">最輕鬆</span>
+        <span class="n">平路、電梯、櫃檯都有，還提供免費行李寄放，退房後可以先放行李再去逛。</span>
+      </div>
+    </div>
+  </div>
+
+  <p class="lnote"><b>一句話：</b>選手 01 是「開車／叫車型度假」，到了就不太想出門；選手 02 是「走路型旅遊」，一天多次進出海灘與市區都方便。標記 <b>❓ 需確認</b> 的兩項（Banwol 的最近超商、人頭費）建議訂房前用訊息問一次。</p>
 </section>
 
 <!-- ======================= 地圖 ======================= -->
 <section id="map" class="sec wrap">
   <p class="eyebrow">位置</p>
-  <h2 class="h">兩間都在海雲台</h2>
-  <p class="sub">選手 02 就在海雲台海灘前的海岸路上；選手 01 在海灘東側、往月出路（달맞이길）的方向，地勢稍高。兩處直線距離約 1.2 公里。</p>
+  <h2 class="h">兩間相距 1.2 公里</h2>
+  <p class="sub">選手 02 在海灘正前方；選手 01 在海灘東側往月出路的山坡上，地勢較高。</p>
 
   <div class="mapwrap">
     <div class="map-fallback" id="map-fallback">
-      目前無法載入線上地圖（可能沒有網路連線）。<br>
-      兩間的地址與 Google 地圖連結都列在下方，點一下就能開啟。
+      目前無法載入地圖。<br>
+      選手 01：달맞이길62번길 67（海雲台東側山坡）<br>
+      選手 02：해운대해변로 271（海雲台海灘前）
     </div>
-    <div id="leafmap" aria-label="海雲台地圖，標示兩間住宿的位置"></div>
+    <div id="leafmap"></div>
   </div>
 
   <div class="maplegend">
     <div class="mcard m1">
       <div class="mh"><span class="mnum">1</span><span class="mt">Banwol Poolvilla</span></div>
-      <p class="addr" style="margin-bottom:10px">4-5F, 67, Dalmaji-gil 62beon-gil, Haeundae-gu, 48098 釜山</p>
+      <p class="addr">4-5F, 67, Dalmaji-gil 62beon-gil, Haeundae-gu</p>
       <a class="btn" href="https://www.google.com/maps/search/?api=1&query=35.15688,129.17382" target="_blank" rel="noopener">Google 地圖</a>
     </div>
     <div class="mcard m2">
       <div class="mh"><span class="mnum">2</span><span class="mt">UH Suite The Haeundae</span></div>
-      <p class="addr" style="margin-bottom:10px">271, Haeundaehaebyeon-ro, Haeundae-gu, 48094 釜山</p>
+      <p class="addr">271, Haeundaehaebyeon-ro, Haeundae-gu</p>
       <a class="btn" href="https://www.google.com/maps/search/?api=1&query=35.15982,129.16113" target="_blank" rel="noopener">Google 地圖</a>
     </div>
   </div>
-
-  <p class="mnote">地圖上的位置是依照兩間住宿的登記地址標示，用來看<b>相對位置</b>；實際出入口請以訂房確認信或 Google 地圖導航為準。</p>
 </section>
 
-<!-- ======================= 完整比較表 ======================= -->
-<section id="table" class="sec wrap">
-  <p class="eyebrow">逐項對照</p>
-  <h2 class="h">完整比較表</h2>
-  <p class="sub">有底色的那一格代表該項目比較有優勢。「—」表示原始資料沒有提供。</p>
-
-  <div class="cmp">
-    <div class="cmp-row cmp-head">
-      <div class="cl">項目</div>
-      <div class="ca">選手 01<br>Banwol</div>
-      <div class="cb">選手 02<br>UH Suite</div>
-    </div>
-
-    <div class="cmp-row grp"><div>價格</div></div>
-    <div class="cmp-row"><div class="cl">4 晚總價</div><div class="ca">TWD 36,942</div><div class="cb win">TWD 34,021</div></div>
-    <div class="cmp-row"><div class="cl">每晚</div><div class="ca">約 9,236</div><div class="cb win">約 8,505</div></div>
-    <div class="cmp-row"><div class="cl">每人 4 晚</div><div class="ca">約 9,236</div><div class="cb win">約 8,505</div></div>
-    <div class="cmp-row"><div class="cl">每人每晚</div><div class="ca">約 2,309</div><div class="cb win">約 2,126</div></div>
-
-    <div class="cmp-row grp"><div>空間</div></div>
-    <div class="cmp-row"><div class="cl">住宿類型</div><div class="ca win">1 棟獨立度假屋</div><div class="cb">飯店式套房</div></div>
-    <div class="cmp-row"><div class="cl">房間面積</div><div class="ca nope">—</div><div class="cb win">44 m²</div></div>
-    <div class="cmp-row"><div class="cl">臥室</div><div class="ca">2</div><div class="cb">2</div></div>
-    <div class="cmp-row"><div class="cl">客廳</div><div class="ca"><span class="yes">有</span></div><div class="cb"><span class="yes">有</span></div></div>
-    <div class="cmp-row"><div class="cl">露台</div><div class="ca win">有</div><div class="cb nope">無</div></div>
-
-    <div class="cmp-row grp"><div>床位</div></div>
-    <div class="cmp-row"><div class="cl">雙人床</div><div class="ca">3</div><div class="cb">3</div></div>
-    <div class="cmp-row"><div class="cl">沙發床</div><div class="ca win">1</div><div class="cb nope">—</div></div>
-    <div class="cmp-row"><div class="cl">床鋪評分</div><div class="ca win">9.9 / 10</div><div class="cb">8.2 / 10</div></div>
-
-    <div class="cmp-row grp"><div>衛浴</div></div>
-    <div class="cmp-row"><div class="cl">浴室數量</div><div class="ca win">2 間</div><div class="cb">1 間</div></div>
-    <div class="cmp-row"><div class="cl">浴缸</div><div class="ca win">有</div><div class="cb nope">無</div></div>
-    <div class="cmp-row"><div class="cl">SPA 浴缸</div><div class="ca win">有</div><div class="cb nope">無</div></div>
-    <div class="cmp-row"><div class="cl">熱水按摩池</div><div class="ca win">有（私人）</div><div class="cb nope">無</div></div>
-    <div class="cmp-row"><div class="cl">淋浴間</div><div class="ca"><span class="yes">有</span></div><div class="cb"><span class="yes">有</span></div></div>
-    <div class="cmp-row"><div class="cl">免治馬桶</div><div class="ca nope">—</div><div class="cb win">有</div></div>
-
-    <div class="cmp-row grp"><div>廚房與家電</div></div>
-    <div class="cmp-row"><div class="cl">廚房</div><div class="ca win">私人簡易廚房</div><div class="cb nope">無</div></div>
-    <div class="cmp-row"><div class="cl">冰箱</div><div class="ca"><span class="yes">有</span></div><div class="cb"><span class="yes">有</span></div></div>
-    <div class="cmp-row"><div class="cl">微波爐</div><div class="ca"><span class="yes">有</span></div><div class="cb"><span class="yes">有</span></div></div>
-    <div class="cmp-row"><div class="cl">電熱水壺</div><div class="ca">泡茶／咖啡設備</div><div class="cb"><span class="yes">有</span></div></div>
-    <div class="cmp-row"><div class="cl">電視</div><div class="ca">Netflix 等串流</div><div class="cb">平面電視・有線頻道</div></div>
-
-    <div class="cmp-row grp"><div>其他</div></div>
-    <div class="cmp-row"><div class="cl">海景</div><div class="ca"><span class="yes">有</span></div><div class="cb"><span class="yes">有（最高樓層）</span></div></div>
-    <div class="cmp-row"><div class="cl">WiFi</div><div class="ca"><span class="yes">免費</span></div><div class="cb"><span class="yes">免費</span></div></div>
-    <div class="cmp-row"><div class="cl">空調</div><div class="ca"><span class="yes">有</span></div><div class="cb"><span class="yes">空調・暖氣</span></div></div>
-    <div class="cmp-row"><div class="cl">禁菸</div><div class="ca"><span class="yes">是</span></div><div class="cb"><span class="yes">是</span></div></div>
-    <div class="cmp-row"><div class="cl">位置評分</div><div class="ca win">9.4 / 10</div><div class="cb nope">—</div></div>
-  </div>
-</section>
-
-<!-- ======================= 價差與結論 ======================= -->
+<!-- ======================= 結論 ======================= -->
 <section id="verdict" class="sec wrap">
   <p class="eyebrow">結論</p>
   <h2 class="h">多花這些錢，值不值得？</h2>
-  <p class="sub">Banwol Poolvilla 比 UH Suite 貴，但貴的幅度攤下來其實不大。</p>
 
   <div class="gapbox">
     <p class="glab">選手 01 比選手 02 貴</p>
-    <p class="gbig">TWD 2,921</p>
-    <p class="gsub">4 人 4 晚總價差</p>
+    <p class="gbig">2,921</p>
+    <p class="gsub">TWD・4 人 4 晚總價差</p>
   </div>
-
   <div class="gaps">
-    <div><b>730</b><span>每晚多付</span></div>
-    <div><b>730</b><span>每人 4 晚多付</span></div>
-    <div><b>183</b><span>每人每天多付</span></div>
+    <div><b>730</b><span>每晚多</span></div>
+    <div><b>730</b><span>每人 4 晚多</span></div>
+    <div><b>183</b><span>每人每天多</span></div>
   </div>
 
   <div class="rank">
     <div class="rcard r1">
       <div class="medal">🥇</div>
-      <h4>選手 01｜Banwol Poolvilla</h4>
-      <p class="rwhy">目前 CP 值較高</p>
-      <ul class="pros" style="margin-top:4px">
-        <li>2 間浴室</li>
-        <li>私人簡易廚房</li>
-        <li>SPA 浴缸＋私人熱水按摩池</li>
-        <li>浴缸</li>
-        <li>海景露台</li>
-        <li>多一張沙發床</li>
+      <h4>Banwol Poolvilla</h4>
+      <p class="rwhy">設備取勝・每人每天只多 183 元</p>
+      <ul class="pros">
+        <li>2 間浴室，4 人早上不用排隊</li>
+        <li>私人按摩池＋浴缸＋SPA 浴缸</li>
+        <li>簡易廚房、海景露台、沙發床</li>
+        <li>床鋪評分 9.9、位置評分 9.4</li>
       </ul>
-      <p>每人每天只多 <b>TWD 183</b>，就換到整棟度假屋的空間感。4 人入住時，<b>2 間浴室</b>是很實際的優勢。</p>
     </div>
-
     <div class="rcard r2">
       <div class="medal">🥈</div>
-      <h4>選手 02｜UH Suite The Haeundae</h4>
-      <p class="rwhy">預算優先的選擇</p>
-      <ul class="pros" style="margin-top:4px">
-        <li>總價便宜 TWD 2,921</li>
-        <li>最高樓層海景</li>
-        <li>44 m² 兩房一廳</li>
-        <li>3 張雙人床</li>
-        <li>免治馬桶</li>
+      <h4>UH Suite The Haeundae</h4>
+      <p class="rwhy">便宜＋方便・走路行程的首選</p>
+      <ul class="pros">
+        <li>省 2,921 元</li>
+        <li>海灘 2 分鐘、地鐵 7 分鐘</li>
+        <li>館內超商、櫃檯、行李寄放</li>
+        <li>最高樓層海景、44 m² 格局方正</li>
       </ul>
-      <p>如果只要住得乾淨、2 間臥室、3 張雙人床，不特別需要 SPA、廚房與第二間浴室，選這間可以省下 <b>TWD 2,921</b>。</p>
     </div>
   </div>
+
+  <details class="fold">
+    <summary>完整比較表（約 30 項逐條對照）</summary>
+    <div class="foldin">
+      <div class="cmp">
+        <div class="cmp-row cmp-head">
+          <div class="cl">項目</div>
+          <div class="ca">選手 01</div>
+          <div class="cb">選手 02</div>
+        </div>
+
+        <div class="cmp-row grp"><div>價格</div></div>
+        <div class="cmp-row"><div class="cl">4 晚總價</div><div class="ca">TWD 36,942</div><div class="cb win">TWD 34,021</div></div>
+        <div class="cmp-row"><div class="cl">每晚</div><div class="ca">約 9,236</div><div class="cb win">約 8,505</div></div>
+        <div class="cmp-row"><div class="cl">每人每晚</div><div class="ca">約 2,309</div><div class="cb win">約 2,126</div></div>
+
+        <div class="cmp-row grp"><div>空間</div></div>
+        <div class="cmp-row"><div class="cl">住宿類型</div><div class="ca win">1 棟獨立度假屋</div><div class="cb">飯店式套房</div></div>
+        <div class="cmp-row"><div class="cl">房間面積</div><div class="ca nope">—</div><div class="cb win">44 m²</div></div>
+        <div class="cmp-row"><div class="cl">臥室</div><div class="ca">2</div><div class="cb">2</div></div>
+        <div class="cmp-row"><div class="cl">客廳</div><div class="ca"><span class="yes">有</span></div><div class="cb"><span class="yes">有</span></div></div>
+        <div class="cmp-row"><div class="cl">露台</div><div class="ca win">有</div><div class="cb nope">無</div></div>
+
+        <div class="cmp-row grp"><div>床位</div></div>
+        <div class="cmp-row"><div class="cl">雙人床</div><div class="ca">3</div><div class="cb">3</div></div>
+        <div class="cmp-row"><div class="cl">沙發床</div><div class="ca win">1</div><div class="cb nope">—</div></div>
+        <div class="cmp-row"><div class="cl">床鋪評分</div><div class="ca win">9.9 / 10</div><div class="cb">8.2 / 10</div></div>
+
+        <div class="cmp-row grp"><div>衛浴</div></div>
+        <div class="cmp-row"><div class="cl">浴室數量</div><div class="ca win">2 間</div><div class="cb">1 間</div></div>
+        <div class="cmp-row"><div class="cl">浴缸</div><div class="ca win">有</div><div class="cb nope">無</div></div>
+        <div class="cmp-row"><div class="cl">SPA 浴缸</div><div class="ca win">有</div><div class="cb nope">無</div></div>
+        <div class="cmp-row"><div class="cl">熱水按摩池</div><div class="ca win">有（私人）</div><div class="cb nope">無</div></div>
+        <div class="cmp-row"><div class="cl">免治馬桶</div><div class="ca nope">—</div><div class="cb win">有</div></div>
+
+        <div class="cmp-row grp"><div>廚房與家電</div></div>
+        <div class="cmp-row"><div class="cl">廚房</div><div class="ca win">私人簡易廚房</div><div class="cb nope">無</div></div>
+        <div class="cmp-row"><div class="cl">冰箱・微波爐</div><div class="ca"><span class="yes">有</span></div><div class="cb"><span class="yes">有</span></div></div>
+        <div class="cmp-row"><div class="cl">電視</div><div class="ca">Netflix 等串流</div><div class="cb">平面電視・有線頻道</div></div>
+
+        <div class="cmp-row grp"><div>實住條件</div></div>
+        <div class="cmp-row"><div class="cl">最近地鐵</div><div class="ca">中洞站 15 分</div><div class="cb win">海雲台站 7–8 分</div></div>
+        <div class="cmp-row"><div class="cl">海灘距離</div><div class="ca">10–15 分（上坡）</div><div class="cb win">2 分（平路）</div></div>
+        <div class="cmp-row"><div class="cl">最近超商</div><div class="ca nope">需確認</div><div class="cb win">館內就有</div></div>
+        <div class="cmp-row"><div class="cl">停車</div><div class="ca">免費・需挪車</div><div class="cb win">免費・每房 1 台</div></div>
+        <div class="cmp-row"><div class="cl">入住方式</div><div class="ca win">自助／無接觸</div><div class="cb">7F 櫃檯</div></div>
+        <div class="cmp-row"><div class="cl">加人費用</div><div class="ca nope">需確認</div><div class="cb">KRW 20,000／人</div></div>
+        <div class="cmp-row"><div class="cl">行李寄放</div><div class="ca nope">—</div><div class="cb win">免費</div></div>
+        <div class="cmp-row"><div class="cl">行李便利度</div><div class="ca">建議叫車到門口</div><div class="cb win">平路可自己拖</div></div>
+
+        <div class="cmp-row grp"><div>其他</div></div>
+        <div class="cmp-row"><div class="cl">海景</div><div class="ca"><span class="yes">有</span></div><div class="cb"><span class="yes">有（最高樓層）</span></div></div>
+        <div class="cmp-row"><div class="cl">WiFi・空調</div><div class="ca"><span class="yes">有</span></div><div class="cb"><span class="yes">有（含暖氣）</span></div></div>
+        <div class="cmp-row"><div class="cl">禁菸</div><div class="ca"><span class="yes">是</span></div><div class="cb"><span class="yes">是</span></div></div>
+        <div class="cmp-row"><div class="cl">位置評分</div><div class="ca win">9.4 / 10</div><div class="cb nope">—</div></div>
+      </div>
+    </div>
+  </details>
 </section>
 
-</main>
-
 <footer class="wrap">
-  <p><b>HotelPick</b> ・ 釜山海雲台住宿比較 ・ 4 位成人・4 晚<br>
-  價格、房型與設備資料整理自訂房頁面，實際以訂房當下的頁面與確認信為準；匯率與價格可能隨時間變動。<br>
-  照片為住宿方提供之官方照片。地圖圖資 &copy; OpenStreetMap contributors。</p>
+  <p><b>資料來源：</b>兩間住宿的訂房頁面資料、官方網站與住客評價；距離與車程為依地圖座標推估，實際以 Google 地圖導航為準。標記「需確認」的項目請在訂房前向住宿確認。</p>
+  <p>價格為查看當時的報價，實際金額以訂房頁面為準。</p>
 </footer>
 
-<!-- ======================= 燈箱 ======================= -->
+<!-- 燈箱 -->
 <div class="lb" id="lightbox" role="dialog" aria-modal="true" aria-label="相片檢視">
   <span class="lb-count"></span>
   <button type="button" class="lb-close" data-act="close" aria-label="關閉">✕</button>
@@ -531,8 +649,8 @@
   <button type="button" class="lb-btn lb-next" data-act="next" aria-label="下一張">›</button>
 </div>
 
-<script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<script defer src="assets/app.js"></script>
+<script src="assets/app.js"></script>
 </body>
 </html>

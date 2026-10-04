@@ -149,7 +149,7 @@
 
       /* 兩點之間的連線，直觀顯示距離 */
       L.polyline(pts, {
-        color: '#6b6258',
+        color: '#ff6b35',
         weight: 2,
         opacity: .55,
         dashArray: '5,6'
